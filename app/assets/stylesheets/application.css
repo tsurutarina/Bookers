@@ -16,6 +16,7 @@
 
 body{
   color:#333;
+  font-size: 13px;
   font-family:verbana, arial,helvetica,sana-serif;
   line-height:18px;
   margin:33px;
@@ -24,4 +25,20 @@ body{
 .new_book{
   display:block;
   margin-top:0;
+}
+
+td{
+  padding:0 5px 7px;
+}
+
+.actions{
+  display: block
+}
+
+a{
+  margin:0;
+}
+
+#notice{
+  color:green;
 }
