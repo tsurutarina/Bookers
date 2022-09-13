@@ -1,5 +1,5 @@
-<p id="notice">Book was successfully created.</p>
-<p>
+<%= flash[:notice] %>
+ <p>
   <strong>Title:</strong>
   <%= @book.title %>
 </p>
@@ -11,4 +11,4 @@
 
 <%= link_to 'Edit' ,"/books/#{@book.id}/edit" %>
 |
-<%= link_to 'Bock', '/books' %>
+<%= link_to 'Back', '/books' %>
